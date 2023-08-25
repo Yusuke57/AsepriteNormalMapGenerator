@@ -1,5 +1,6 @@
 ----------------------------------------------------------------------
--- This script generates a normal map from the X, Y (, and Z) channel layers
+-- Extension to generate normal map from X, Y(, and Z) layer in Aseprite
+-- https://github.com/Yusuke57/AsepriteNormalMapGenerator
 ----------------------------------------------------------------------
 
 local empty = "" -- Because nil cannot be put in the table
