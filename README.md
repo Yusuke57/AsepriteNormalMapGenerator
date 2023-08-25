@@ -1,0 +1,1 @@
+# AsepriteNormalMapGenerator
