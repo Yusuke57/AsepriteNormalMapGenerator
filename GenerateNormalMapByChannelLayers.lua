@@ -92,7 +92,7 @@ local function showDialog()
     dialog:combobox{ id="layerY", label="Layer Y: ", options = layerNames, option = defaultOptions.y }
     dialog:combobox{ id="layerZ", label="Layer Z: ", options = layerNames, option = defaultOptions.z }
     dialog:combobox{ id="frames", label="Frames: ", options = { framesAll, framesSelected } }
-    dialog:button{ id="generate", text="Generate", onclick=function() onClickGenerateButton(dialog) end }
+    dialog:button{ id="generate", text="Generate", focus=true, onclick=function() onClickGenerateButton(dialog) end }
     dialog:button{ id="cancel", text="Cancel" }
 
     dialog:show()
